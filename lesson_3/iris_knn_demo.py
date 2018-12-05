@@ -38,7 +38,13 @@ if __name__=='__main__':
     model.fit(X, y)
 
     sample = [4.6,3.4,1.4,0.3]
-    print(model.predict(sample, k=9))
+    #print(model.predict(sample, k=9))
+
+    list = [[]] * 5
+
+    list[0].append(10)
+
+    print(list)
 
 
 
